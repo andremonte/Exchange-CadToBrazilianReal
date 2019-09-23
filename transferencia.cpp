@@ -22,13 +22,17 @@ void Transferencia::conversao(double real, double dolar) {
 	cout << endl << "You are going to receive: CAD$ "<< fixed << setprecision(2) << resultado << " DOLLARS\n";
 }
 
-void Transferencia::pause() {	
-	string line;
+void Transferencia::pause() {
+	cout << "(Press Enter to Continue...) ";
+	cin.ignore(1000, '\n');
+	cin.ignore(1000, '\n');
+/*	string line;
 	while(true) {
 		cout << "(Press Enter to Continue...) ";
+		cin.ignore(1000, '\n');
 		getline(cin, line);
 
 		if(line == "")
 			break;
-	}
+	}*/
 }

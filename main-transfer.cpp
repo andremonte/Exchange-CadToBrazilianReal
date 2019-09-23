@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 			transferencia.pegaReal(real);
 			transferencia.conversao(real, entrada);
 
-
+			transferencia.pause();
 
 			cout << endl << endl << "Do you want to continue? Yes/No " << endl << "> ";
 			cin >> answer;
